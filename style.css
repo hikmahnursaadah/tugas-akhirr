@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*
+
+#bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #eaf8ff;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #0066aa;
+}
+
+.judul{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.card:hover{
+    background-color: #dff4ff;
+}
+
+.card h2{
+    font-size: 40px;
+}
+
+.card h3{
+    color: #0066aa;
+}
+
+.info{
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dff4ff;
+    border-radius: 8px;
+}
+

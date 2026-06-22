@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="bg-video">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+
+    <h1>Dunia Hewan Laut</h1>
+    <p class="judul">
+       Hayyiee. . . selamat datang di Dunia Hewan Laut! 🌊🐠<br>
+       Website sederhana ini berisi informasi tentang beberapa hewan laut yang menarik untuk dipelajari <br>
+       Selamat menjelajah!
+    </p>
+
+    <div class="container">
+
+        <div class="card" onclick="tampilInfo('lumba')">
+            <h2>🐬</h2>
+            <h3>Lumba-lumba</h3>
+            <p>Hewan laut yang cerdas dan ramah.</p>
+
+            <div class="info" id="lumba">
+                <b>Habitat:</b> Laut dan samudra<br>
+                <b>Makanan:</b> Ikan kecil<br>
+                <b>Fakta:</b> Bisa berkomunikasi dengan siulan.
+            </div>
+        </div>
+
+        <div class="card" onclick="tampilInfo('hiu')">
+            <h2>🦈</h2>
+            <h3>Hiu</h3>
+            <p>Predator yang hidup di laut.</p>
+
+            <div class="info" id="hiu">
+                <b>Habitat:</b> Laut tropis<br>
+                <b>Makanan:</b> Ikan dan hewan laut<br>
+                <b>Fakta:</b> Memiliki penciuman yang tajam.
+            </div>
+        </div>
+
+        <div class="card" onclick="tampilInfo('gurita')">
+            <h2>🐙</h2>
+            <h3>Gurita</h3>
+            <p>Hewan laut dengan delapan lengan.</p>
+
+            <div class="info" id="gurita">
+                <b>Habitat:</b> Dasar laut<br>
+                <b>Makanan:</b> Kerang dan kepiting<br>
+                <b>Fakta:</b> Bisa menyamarkan warna tubuh.
+            </div>
+        </div>
+
+            <div class="card" onclick="tampilInfo('ubur')">
+            <h2>🪼</h2>
+            <h3>Ubur-ubur</h3>
+            <p>Hewan laut transparan yang bergerak mengikuti arus.</p>
+
+            <div class="info" id="ubur">
+                <b>Habitat:</b> Laut dangkal hingga laut dalam<br>
+                <b>Makanan:</b> : Plankton dan ikan kecil<br>
+                <b>Fakta:</b> Beberapa jenis memiliki sengatan yang kuat.
+            </div>
+        </div>
+
+        <div class="card" onclick="tampilInfo('penyu')">
+            <h2>🐢</h2>
+            <h3>Penyu</h3>
+            <p>Hewan laut yang hidup sangat lama.</p>
+
+            <div class="info" id="penyu">
+                <b>Habitat:</b> Laut tropis<br>
+                <b>Makanan:</b> Rumput laut<br>
+                <b>Fakta:</b> Bisa berenang sangat jauh.
+            </div>
+        </div>
+
+        <div class="card" onclick="tampilInfo('kepiting')">
+            <h2>🦀</h2>
+            <h3>Kepiting</h3>
+            <p>Hewan yang berjalan menyamping.</p>
+
+            <div class="info" id="kepiting">
+                <b>Habitat:</b> Pantai dan laut<br>
+                <b>Makanan:</b> Organisme kecil<br>
+                <b>Fakta:</b> Memiliki capit yang kuat.
+            </div>
+        </div>
+
+        <div class="card" onclick="tampilInfo('bintang')">
+            <h2>⭐</h2>
+            <h3>Bintang Laut</h3>
+            <p>Hewan unik berbentuk bintang.</p>
+
+            <div class="info" id="bintang">
+                <b>Habitat:</b> Dasar laut<br>
+                <b>Makanan:</b> Organisme kecil<br>
+                <b>Fakta:</b> Bisa menumbuhkan lengan baru.
+            </div>
+        </div>
+
+        <div class="card" onclick="tampilInfo('kuda')">
+            <h2>🐴</h2>
+            <h3>Kuda Laut</h3>
+            <p>Ikan kecil dengan bentuk tubuh menyerupai kuda.</p>
+
+            <div class="info" id="kuda">
+                <b>Habitat:</b> Padang lamun dan terumbu karang<br>
+                <b>Makanan:</b> Plankton dan udang kecil<br>
+                <b>Fakta:</b> Kuda laut jantan yang mengandung dan melahirkan anak.
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
